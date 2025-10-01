@@ -54,7 +54,16 @@ npm run dev
 3. Open your browser at http://localhost:5173 (Vite default) and draw a polygon on the map.
 
 Notes:
+
 - For a production build use `npm run build` and serve the `dist/` folder. A small Express server is included for static serving.
+
+## Deployment on Cloudflare Workers
+
+1. Use the cloudflare Wrangler tool to deploy the app.
+
+```bash
+npm run deploy
+```
 
 ## Project layout (important files)
 
@@ -99,6 +108,12 @@ Additional SQL queries combine SSURGO tables to return descriptive soil attribut
 2. Create a feature branch
 3. Add tests where appropriate
 4. Open a PR with a clear description
+
+## ❤️ Support
+
+The map view use Stadia Maps as the base layer. Currently, I'm using the free tier which limits usage. If you find the app useful and would like to support its continued development and hosting costs, I appreciate any contributions.
+
+> Support me by [buying me a coffee](https://www.buymeacoffee.com/williamntw).
 
 ## License
 
